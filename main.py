@@ -102,10 +102,10 @@ while True:
                   user_name = input("Enter Challenger Name:\n\n")
                   computer_score = 0
                   user_score = 0
-  elif enter_game == "rules":
+  elif enter_game.lower() == "rules":
     print("\n\nThe game continues until the challenger loses. The challenger gets to choose whether he wants to continue the game if he loses. If the challenger chooses to continue, he has the opportunity to change his challenger name. The game score resets when the challenger changes his name.\n\n")
   
-  elif enter_game == "run away":
+  elif enter_game.lower() == "run away":
     exit()
   else:
     print("\\n Enter valid input!!! \\n")
